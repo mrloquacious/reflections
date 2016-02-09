@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Instead of looking at every line, I was able to focus only on the lines that had been changed.
+That made it much easier to spot the mistake.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+As we’ve seen, comparing the current version of a program to an old version simplifies the finding of newly introduced bugs.
+It seems that revisiting errors in old versions of programs and seeing how they were later fixed would serve to educate.
+Being reminded of the process could help solidify the lesson learned.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manually choosing commits has the benefit of the user’s knowledge of the work in progress, but could be a problem for users who do not remember to make commits (or who make to many arbitrary commits).  Automatic saves have the benefit of knowing you won’t ever go too far between saves, and the drawback of all saves being arbitrary in relation to the program’s progress.  A combination of the two running concurrently intrigues me.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+In programming, files are often interrelated, and require synchronized commits.  Perhaps it’s less important for types of files used in Google Docs (I use GDocs and have used its version history features, but have never had a problem when two files weren’t sync’ed simultaneously).
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log shows the log of commits; git diff shows the changes from one commit to the next.
+
+How might using version control make you more confident to make changes that could break something?
+
+You can always go back to a previous version with the elegant simplicity of the tools provided by Git: git checkout and git diff.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I’m taking this course after starting the Udacity course, Javascript Basics, and not understanding how to configure and use Git.
+
