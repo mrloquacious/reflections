@@ -1,3 +1,6 @@
 
 When would you want to use a remote repository rather than keeping all your work local?
 
+When you are working on a computer other than the one that has the local Git directory.
+Or, when you're collaborating with others online. 
+
